@@ -9,5 +9,6 @@ public class HelloApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HelloApplication.class, args);
 	}
-
+	apple obj = new apple();
+	obj.eatapple();
 }
