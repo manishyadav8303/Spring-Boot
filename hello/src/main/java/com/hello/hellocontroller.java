@@ -1,5 +1,6 @@
 package com.hello;
 
+import org.springframework.context.event.EventListener;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,7 +13,7 @@ public class hellocontroller {
     }
     @PostMapping("/hello")
     public String hellopost(@RequestBody String name){
-        return "hello"+name+"!"; 
-    }
+        return "hello"+name+"!";
+    {
 
 }
